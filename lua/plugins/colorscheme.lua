@@ -1,6 +1,8 @@
 return {
   {
     "catppuccin/nvim",
+    name = "catppuccin",
+    lazy = true,
     config = function()
       require("catppuccin").setup({
         integrations = {
@@ -32,17 +34,22 @@ return {
     end,
   },
 
-  { "folke/tokyonight.nvim", opts = { style = "storm" }, name = "tokyonight" },
+  {
+    "folke/tokyonight.nvim",
+    name = "tokyonight",
+    lazy = true,
+    opts = { style = "storm" },
+  },
 
-  { "sainnhe/everforest", name = "everforest" },
+  { "sainnhe/everforest", name = "everforest", lazy = true },
 
-  { "NLKNguyen/papercolor-theme", name = "papercolor" },
+  { "NLKNguyen/papercolor-theme", name = "papercolor", lazy = true },
 
-  { "morhetz/gruvbox", name = "gruvbox" },
+  { "morhetz/gruvbox", name = "gruvbox", lazy = true },
 
-  { "rose-pine/neovim", name = "rose-pine" },
+  { "rose-pine/neovim", name = "rose-pine", lazy = true },
 
-  { "rebelot/kanagawa.nvim", name = "kanagawa" },
+  { "rebelot/kanagawa.nvim", name = "kanagawa", lazy = true },
 
-  { "navarasu/onedark.nvim", name = "onedark" },
+  { "navarasu/onedark.nvim", name = "onedark", lazy = true },
 }
