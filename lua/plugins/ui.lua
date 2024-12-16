@@ -10,4 +10,15 @@ return {
       vim.keymap.set("n", "<leader>u|", "<cmd>ScrollbarToggle<cr>", { desc = "Toggle scrollbar" })
     end,
   },
+
+  -- {
+  --   "folke/snacks.nvim",
+  --   opts = {
+  --     terminal = {
+  --       win = {
+  --         position = "float",
+  --       },
+  --     },
+  --   },
+  -- },
 }

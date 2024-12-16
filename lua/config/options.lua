@@ -5,3 +5,4 @@
 vim.opt.title = true
 vim.opt.titlelen = 0 -- do not shorten title
 vim.opt.titlestring = 'nvim %{expand("%:p")}'
+vim.g.snacks_animate = false
